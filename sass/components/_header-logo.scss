@@ -1,0 +1,11 @@
+.menu__logo {
+    font-family: var(--second-font);
+    color: var(--primary-text-color);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    &-web {
+        color: var(--accent-color);
+        }
+    }
