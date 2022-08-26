@@ -1,17 +1,19 @@
-
-
-    .work{
+.work {
     display: flex;
-    &__item{
-    margin-right: 30px;
-    position: relative;
-    &:last-child{
-    margin-right: 0;
+
+
+    &__item {
+        margin-right: 30px;
+        position: relative;
+
+
+        &:last-child {
+            margin-right: 0;
+        }
     }
-    }
-    }
-    
-    .work__img-title{
+}
+
+.work__img-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,13 +28,13 @@
     text-transform: uppercase;
     color: #FFFFFF;
     bottom: 0;
-    }
+}
 
-    .section--no-pading-top{
-        padding-top: 0;
-    }
+.section--no-pading-top {
+    padding-top: 0;
+}
 
-    .section__title{     
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -40,4 +42,4 @@
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     margin-bottom: 50px;
-    }
+}
